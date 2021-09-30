@@ -31,9 +31,6 @@ brew install --cask microsoft-teams
 # Install zoom
 brew install --cask zoom
 
-# Install Discord
-brew install --cask discord
-
 # Install PIA
 brew install --cask private-internet-access
 
@@ -41,7 +38,7 @@ brew install --cask private-internet-access
 curl -L https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip > ~/Downloads/options.zip && unzip ~/Downloads/options.zip -d ~/Downloads && rm -rf ~/Downloads/options.zip
 
 # Install font
-Cp
+cp Meslo\ LG\ M\ Regular\ for\ Powerline.ttf /Library/Fonts
 
 ########################
 ### WEB DEV & DEVOPS ###
