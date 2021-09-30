@@ -116,7 +116,7 @@ brew install --cask final-fantasy-xiv-online
 ###################
 # Make project directories
 mkdir ~/Projects
-mkdir {~/Projects/Music,~/Projects/Games,~/Projects/Apps}
+mkdir {~/Projects/Music,~/Projects/Games,~/Projects/Apps,~/Projects/Apps}
 mkdir {~/Projects/Apps/Work,~/Projects/Apps/Personal} 
 
 ####################
