@@ -1,7 +1,6 @@
 #!/usr/bin/zsh
 
-set -e
-
+set +e
 
 # Clone zsh-completions
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
