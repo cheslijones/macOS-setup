@@ -17,7 +17,9 @@ sudo softwareupdate --install-rosetta
 brew install --cask rectangle
 
 # Install iSstp
-curl -L https://github.com/axot/isstp/releases/download/v1.4.1-rc1/iSstp.v1.4.1-rc1.zip > ~/Downloads/iSSTP.zip && unzip ~/Downloads/iSSTP.zip -d /Applications && rm -rf ~/Downloads/iSSTP.zip
+curl -L https://github.com/axot/isstp/releases/download/v1.4.1-rc1/iSstp.v1.4.1-rc1.zip > ~/Downloads/iSSTP.zip && \
+    unzip ~/Downloads/iSSTP.zip -d /Applications && \
+    rm -rf ~/Downloads/iSSTP.zip
 
 # Install parallels
 brew install --cask parallels
@@ -35,7 +37,9 @@ brew install --cask zoom
 brew install --cask private-internet-access
 
 # Download Logi Options
-curl -L https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip > ~/Downloads/options.zip && unzip ~/Downloads/options.zip -d ~/Downloads && rm -rf ~/Downloads/options.zip
+curl -L https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip > ~/Downloads/options.zip && \
+    unzip ~/Downloads/options.zip -d ~/Downloads && \
+    rm -rf ~/Downloads/options.zip
 
 # Install font
 cp Meslo\ LG\ M\ Regular\ for\ Powerline.ttf /Library/Fonts
@@ -97,7 +101,9 @@ brew install --cask fl-studio
 brew install --cask native-access
 
 # Install Arturia Software Center
-curl -L https://downloads.arturia.net/products/asc/soft/Arturia_Software_Center__2_2_1_94.pkg > ~/Downloads/arturia.pkg && sudo installer -pkg ~/Downloads/arturia.pkg -target / && rm -rf ~/Downloads/arturia.pkg
+curl -L https://downloads.arturia.net/products/asc/soft/Arturia_Software_Center__2_2_1_94.pkg > ~/Downloads/arturia.pkg && \
+    sudo installer -pkg ~/Downloads/arturia.pkg -target / && \
+    rm -rf ~/Downloads/arturia.pkg
 
 # Download Steinberg Download Assistant
 curl -L https://www.steinberg.net/sda-mac > ~/Downloads/steinberg.dmg
@@ -113,8 +119,10 @@ brew install --cask final-fantasy-xiv-online
 ###################
 # Make project directories
 mkdir ~/Projects
-mkdir {~/Projects/Music,~/Projects/Games,~/Projects/Apps,~/Projects/Apps}
-mkdir {~/Projects/Apps/Work,~/Projects/Apps/Personal} 
+mkdir {~/Projects/Music,~/Projects/Programming}
+mkdir {~/Projects/Music/Cubase,~/Projects/Music/FLStudio,~/Projects/Music/Logic,~/Projects/Music/Maschine} 
+mkdir {~/Projects/Programming/Personal,~/Projects/Programming/Bumticket,~/Projects/Programming/Croner} 
+
 
 ####################
 ### VIM SETTINGS ###
@@ -122,7 +130,7 @@ mkdir {~/Projects/Apps/Work,~/Projects/Apps/Personal}
 # Create and edit VIM settings
 touch ~/.vimrc
 echo ":set number" >> ~/.vimrc
-echo ":set number" >> ~/.vimrc
+echo ":syntax on" >> ~/.vimrc
 
 ###########
 ### ZSH ###
