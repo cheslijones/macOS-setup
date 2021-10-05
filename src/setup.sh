@@ -77,6 +77,12 @@ brew install --cask microsoft-edge
 # Install Firefox
 brew install --cask firefox
 
+# Install node
+brew install node
+
+# Install node
+brew install poetry
+
 ################
 ### GAME DEV ###
 ################
