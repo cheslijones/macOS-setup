@@ -92,6 +92,9 @@ brew install --cask unity-hub
 # Install .NET SDK
 brew install --cask dotnet-sdk
 
+# Install mono
+brew install mono
+
 ########################################
 ### MUSIC                            ###
 ### Need to download these manually: ###
