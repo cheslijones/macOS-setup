@@ -29,9 +29,9 @@ fi
 echo 'POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"' >> ~/.zshrc &&
 echo 'POWERLEVEL9K_PROMPT_ADD_NEWLINE=true' >> ~/.zshrc &&
 echo 'POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="red"' >> ~/.zshrc &&
-echo 'export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc && 
-echo 'export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"' >> ~/.zshrc && 
-echo 'export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"' >> ~/.zshrc &&
-echo 'export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@1.1/lib/pkgconfig"' >> ~/.zshrc
+# echo 'export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc && 
+# echo 'export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"' >> ~/.zshrc && 
+# echo 'export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"' >> ~/.zshrc &&
+# echo 'export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@1.1/lib/pkgconfig"' >> ~/.zshrc
 
 source ~/.zshrc
